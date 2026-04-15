@@ -1,6 +1,6 @@
 {
   "name": "codemap-claude",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interactive CLI tool for generating project codemaps with multi-folder selection and batch processing",
   "main": "dist/codemap.js",
   "bin": {
