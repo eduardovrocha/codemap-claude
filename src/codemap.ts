@@ -1,6 +1,6 @@
 /**
  * CLI Interface for Codemap Generation
- * Provides: claude-codemap [folder1,folder2,...]
+ * Provides: codemap-claude [folder1,folder2,...]
  */
 
 import * as fs from 'fs';

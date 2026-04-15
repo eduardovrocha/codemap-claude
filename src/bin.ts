@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 /**
- * CLI Entry Point for claude-codemap
+ * CLI Entry Point for codemap-claude
  * Usage:
- *   claude-codemap                    # Interactive mode
- *   claude-codemap app,src,client     # Direct mode with multiple folders
- *   claude-codemap app                # Single folder
+ *   codemap-claude                    # Interactive mode
+ *   codemap-claude app,src,client     # Direct mode with multiple folders
+ *   codemap-claude app                # Single folder
  */
 
 import { CodemapCLI } from './codemap';

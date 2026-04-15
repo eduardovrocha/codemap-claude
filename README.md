@@ -1,4 +1,4 @@
-# 📦 claude-codemap
+# 📦 codemap-claude
 
 Interactive CLI tool for generating project codemaps with multi-folder selection and batch processing.
 
@@ -23,21 +23,21 @@ Interactive CLI tool for generating project codemaps with multi-folder selection
 
 ### Via npm (Global)
 ```bash
-npm install -g claude-codemap
-claude-codemap                    # Interactive mode
-claude-codemap app,src            # Direct mode
+npm install -g codemap-claude
+codemap-claude                    # Interactive mode
+codemap-claude app,src            # Direct mode
 ```
 
 ### Via npx (No Installation)
 ```bash
-npx claude-codemap                # Interactive mode
-npx claude-codemap app,client     # Direct mode
+npx codemap-claude                # Interactive mode
+npx codemap-claude app,client     # Direct mode
 ```
 
 ### Local Installation
 ```bash
-npm install --save-dev claude-codemap
-npx claude-codemap                # Use via npx
+npm install --save-dev codemap-claude
+npx codemap-claude                # Use via npx
 ```
 
 ---
@@ -49,7 +49,7 @@ npx claude-codemap                # Use via npx
 Run without arguments to get interactive folder selection:
 
 ```bash
-$ claude-codemap
+$ codemap-claude
 ```
 
 **Output:**
@@ -74,10 +74,10 @@ Specify folders directly:
 
 ```bash
 # Single folder
-$ claude-codemap app
+$ codemap-claude app
 
 # Multiple folders (comma-separated)
-$ claude-codemap app,client,src
+$ codemap-claude app,client,src
 ```
 
 ### Selection Formats
@@ -131,7 +131,7 @@ Each codemap contains:
 Generate codemaps to help new team members understand project structure.
 
 ```bash
-claude-codemap                    # Show all folders
+codemap-claude                    # Show all folders
 # Select key folders: "app,config,lib"
 ```
 
