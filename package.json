@@ -1,6 +1,6 @@
 {
   "name": "codemap-claude",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Interactive CLI tool for generating project codemaps with multi-folder selection and batch processing",
   "main": "dist/codemap.js",
   "bin": {
@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ioit-solutions/model-mesh.git"
+    "url": "git+https://github.com/eduardovrocha/codemap-claude.git"
   },
   "bugs": {
-    "url": "https://github.com/ioit-solutions/model-mesh/issues"
+    "url": "https://github.com/eduardovrocha/codemap-claude/issues"
   },
-  "homepage": "https://github.com/ioit-solutions/model-mesh#readme",
+  "homepage": "https://github.com/eduardovrocha/codemap-claude#readme",
   "engines": {
     "node": ">=18.0.0"
   },
