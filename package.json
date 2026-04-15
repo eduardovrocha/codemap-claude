@@ -1,0 +1,47 @@
+{
+  "name": "codemap-claude",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool for generating project codemaps with multi-folder selection and batch processing",
+  "main": "dist/codemap.js",
+  "bin": {
+    "codemap-claude": "dist/bin.js"
+  },
+  "type": "commonjs",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "dev": "tsx src/codemap.ts",
+    "test": "node dist/bin.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "codemap",
+    "code-generation",
+    "cli",
+    "typescript",
+    "project-analysis",
+    "folder-scanner",
+    "code-structure"
+  ],
+  "author": "IOIT Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioit-solutions/model-mesh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ioit-solutions/model-mesh/issues"
+  },
+  "homepage": "https://github.com/ioit-solutions/model-mesh#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
